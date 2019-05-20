@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9217C8FE229308D4008B3235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C8FD229308D4008B3235 /* AppDelegate.m */; };
-		9217C901229308D4008B3235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C900229308D4008B3235 /* ViewController.m */; };
 		9217C904229308D4008B3235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9217C902229308D4008B3235 /* Main.storyboard */; };
 		9217C906229308D5008B3235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9217C905229308D5008B3235 /* Assets.xcassets */; };
 		9217C909229308D5008B3235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9217C907229308D5008B3235 /* LaunchScreen.storyboard */; };
 		9217C90C229308D5008B3235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C90B229308D5008B3235 /* main.m */; };
 		9217C916229308D5008B3235 /* PlaylistObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C915229308D5008B3235 /* PlaylistObjectiveCTests.m */; };
 		9217C921229308D5008B3235 /* PlaylistObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C920229308D5008B3235 /* PlaylistObjectiveCUITests.m */; };
+		9217C93122930BCC008B3235 /* WILSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C93022930BCC008B3235 /* WILSong.m */; };
+		9217C93522930C0E008B3235 /* WILPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C93422930C0E008B3235 /* WILPlaylist.m */; };
+		9217C938229316B5008B3235 /* WILPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C937229316B5008B3235 /* WILPlaylistController.m */; };
+		9217C93D22932269008B3235 /* WILPlaylistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C93C22932269008B3235 /* WILPlaylistTableViewController.m */; };
+		9217C94422933AAF008B3235 /* WILDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9217C94322933AAF008B3235 /* WILDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		9217C8F9229308D4008B3235 /* PlaylistObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9217C8FC229308D4008B3235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9217C8FD229308D4008B3235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9217C8FF229308D4008B3235 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9217C900229308D4008B3235 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9217C903229308D4008B3235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9217C905229308D5008B3235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9217C908229308D5008B3235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		9217C91C229308D5008B3235 /* PlaylistObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaylistObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9217C920229308D5008B3235 /* PlaylistObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistObjectiveCUITests.m; sourceTree = "<group>"; };
 		9217C922229308D5008B3235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9217C92F22930BCC008B3235 /* WILSong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILSong.h; sourceTree = "<group>"; };
+		9217C93022930BCC008B3235 /* WILSong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILSong.m; sourceTree = "<group>"; };
+		9217C93322930C0E008B3235 /* WILPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILPlaylist.h; sourceTree = "<group>"; };
+		9217C93422930C0E008B3235 /* WILPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILPlaylist.m; sourceTree = "<group>"; };
+		9217C936229316B5008B3235 /* WILPlaylistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILPlaylistController.h; sourceTree = "<group>"; };
+		9217C937229316B5008B3235 /* WILPlaylistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILPlaylistController.m; sourceTree = "<group>"; };
+		9217C93B22932269008B3235 /* WILPlaylistTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILPlaylistTableViewController.h; sourceTree = "<group>"; };
+		9217C93C22932269008B3235 /* WILPlaylistTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILPlaylistTableViewController.m; sourceTree = "<group>"; };
+		9217C94222933AAF008B3235 /* WILDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WILDetailTableViewController.h; sourceTree = "<group>"; };
+		9217C94322933AAF008B3235 /* WILDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WILDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +113,10 @@
 		9217C8FB229308D4008B3235 /* PlaylistObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
-				9217C8FC229308D4008B3235 /* AppDelegate.h */,
-				9217C8FD229308D4008B3235 /* AppDelegate.m */,
-				9217C8FF229308D4008B3235 /* ViewController.h */,
-				9217C900229308D4008B3235 /* ViewController.m */,
+				9217C92E22930AAA008B3235 /* Resources */,
 				9217C902229308D4008B3235 /* Main.storyboard */,
-				9217C905229308D5008B3235 /* Assets.xcassets */,
-				9217C907229308D5008B3235 /* LaunchScreen.storyboard */,
-				9217C90A229308D5008B3235 /* Info.plist */,
-				9217C90B229308D5008B3235 /* main.m */,
+				9217C93222930BD3008B3235 /* Models */,
+				9217C939229316BD008B3235 /* Controller */,
 			);
 			path = PlaylistObjectiveC;
 			sourceTree = "<group>";
@@ -130,6 +137,59 @@
 				9217C922229308D5008B3235 /* Info.plist */,
 			);
 			path = PlaylistObjectiveCUITests;
+			sourceTree = "<group>";
+		};
+		9217C92E22930AAA008B3235 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9217C8FC229308D4008B3235 /* AppDelegate.h */,
+				9217C8FD229308D4008B3235 /* AppDelegate.m */,
+				9217C905229308D5008B3235 /* Assets.xcassets */,
+				9217C907229308D5008B3235 /* LaunchScreen.storyboard */,
+				9217C90A229308D5008B3235 /* Info.plist */,
+				9217C90B229308D5008B3235 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9217C93222930BD3008B3235 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9217C92F22930BCC008B3235 /* WILSong.h */,
+				9217C93022930BCC008B3235 /* WILSong.m */,
+				9217C93322930C0E008B3235 /* WILPlaylist.h */,
+				9217C93422930C0E008B3235 /* WILPlaylist.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9217C939229316BD008B3235 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9217C93A22932234008B3235 /* Model Controllers */,
+				9217C94122932295008B3235 /* ViewControllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9217C93A22932234008B3235 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9217C936229316B5008B3235 /* WILPlaylistController.h */,
+				9217C937229316B5008B3235 /* WILPlaylistController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		9217C94122932295008B3235 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9217C93B22932269008B3235 /* WILPlaylistTableViewController.h */,
+				9217C93C22932269008B3235 /* WILPlaylistTableViewController.m */,
+				9217C94222933AAF008B3235 /* WILDetailTableViewController.h */,
+				9217C94322933AAF008B3235 /* WILDetailTableViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +254,7 @@
 		9217C8F1229308D4008B3235 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WIL;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "William Moody";
 				TargetAttributes = {
@@ -262,9 +323,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9217C901229308D4008B3235 /* ViewController.m in Sources */,
+				9217C93D22932269008B3235 /* WILPlaylistTableViewController.m in Sources */,
+				9217C94422933AAF008B3235 /* WILDetailTableViewController.m in Sources */,
 				9217C90C229308D5008B3235 /* main.m in Sources */,
+				9217C93122930BCC008B3235 /* WILSong.m in Sources */,
+				9217C93522930C0E008B3235 /* WILPlaylist.m in Sources */,
 				9217C8FE229308D4008B3235 /* AppDelegate.m in Sources */,
+				9217C938229316B5008B3235 /* WILPlaylistController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistObjectiveC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistObjectiveC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlaylistObjectiveC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlaylistObjectiveC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
