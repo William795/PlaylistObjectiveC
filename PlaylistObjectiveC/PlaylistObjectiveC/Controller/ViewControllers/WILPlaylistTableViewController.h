@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WILPlaylistTableViewController.h
 //  PlaylistObjectiveC
 //
 //  Created by William Moody on 5/20/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface WILPlaylistTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
